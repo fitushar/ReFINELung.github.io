@@ -143,43 +143,19 @@ This framework lays the foundation for semi-supervised training, domain adaptati
 <!-- End paper abstract -->
 
 
-<!-- Image carousel -->
+<!-- ReFINE-Lung Overview Image -->
 <section class="hero is-small">
   <div class="hero-body">
-    <div class="container">
-      <div id="results-carousel" class="carousel results-carousel">
-      <div class="item">
-        <!-- Your image here -->
-        <img src="static/images/RrFinelung_fig1.png" alt="MY ALT TEXT"/>
-        <h2 class="subtitle has-text-centered">
-          Virtual Patient’s inclusion and exclusion criteria and progress through the study. Within the study, 294 virtual patients were assessed, with 174 of them having a total of 512 lesions, varying from homogeneous to heterogeneous in nature. All 294 virtual patients underwent both virtual CT and CXR scans. For the CT cohort, *294 virtual images were processed through two distinct scanners, the Duke Legacy-12 and the Duke Legacy-20, with each scanner producing three unique imaging configurations per patient (294 x 3=882). **From these six configurations, one CT image per patient, total 294 was randomly selected for evaluation. As for the CXR cohort, all 294 virtual patients were successfully imaged using the Duke Legacy-CXR scanner. A indicate the area under the receiver operating characteristic curve.        </h2>
-      </div>
-      <div class="item">
-        <!-- Your image here -->
-        <img src="static/images/RrFinelung_fig1.png" alt="MY ALT TEXT"/>
-        <h2 class="subtitle has-text-centered">
-         Example of human model and simulated images from the Virtual Lungs Screening Trial. Selected slice of (A) computation human model with a homogenous lesion (B) simulated CT scan image from Duke Legacy W20 scanner C) simulated CXR image using legacy post-processing.       </h2>
-     </div>
-     <div class="item">
-      <!-- Your image here -->
-      <img src="static/images/RrFinelung_fig1.png" alt="MY ALT TEXT"/>
-      <h2 class="subtitle has-text-centered">
-        Performance of the AI CT-Reader and AI CXR-Reader in predicting lung cancer across patient and lesion types. (a) Receiver operating characteristic (ROC) curves comparing the performance of the AI CT-Reader and AI CXR-Reader for patient-level predictions, homogeneous lesions, and heterogeneous lesions. Blue and brown lines represent AI CT-Reader and AI CXR-Reader performance, respectively. Homogeneous lesions are represented by a solid line, and heterogeneous lesions by a dashed line. The diagonal dashed line represents the ROC curve for a random classifier with an AUROC of 0.50. NLST CT and NLST CXR results are marked with blue and brown dot (error bar represents 95% CI of sensitivity and specificity), respectively. (b) Forest plot showing the difference in AUROC between AI CT-Reader and AI CXR-Reader for patient-level predictions. The blue and brown markers represent the AUROC differences for CT and CXR, with error bars indicating the 95% confidence intervals. The p-value for statistical significance is shown (p < 0.001).
-AI = artificial intelligence. ROC = receiver operating characteristic. AUROC = area under the receiver operating characteristic curve. NLST = National Lung Screening Trial.
+    <div class="container has-text-centered">
+      <figure class="image is-3by2">
+        <img src="static/images/RrFinelung_fig1.png" alt="Overview of ReFINE-Lung">
+      </figure>
+      <h2 class="subtitle mt-4">
+        <strong>Figure.</strong> Overview of <strong>ReFINE-Lung</strong>. ReFINE-Lung is a modular framework designed to curate high-quality pseudo-labels from clinical lung screening CTs. It integrates multi-model candidate generation with ensemble agreement, followed by calibration, unsupervised prediction alignment, prevalence estimation, and cost-aware thresholding. This consensus-based refinement pipeline enhances reliability of predicted nodule probabilities while reducing false positives across diverse clinical domains.
       </h2>
     </div>
   </div>
-</div>
-</div>
 </section>
-<!-- End image carousel -->
-
-
-
-
-
-
-
 
 
 
